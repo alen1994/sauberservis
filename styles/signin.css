@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:white;
+  text-align: center;
+  background: linear-gradient( rgba(255, 255, 255, 0.678), rgba(255, 255, 255, 0.692) ), url(../slike/vozni_park.jpg);
+ 
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: darkred;
+  border-color: darkred;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: rgb(190, 1, 1);
+  border-color: rgb(190, 1, 1);
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.ml-2, .mx-2 {
+  margin-left: 0rem!important;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 25px;
+  border-radius: 30px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box{
+ padding: 20px;
+box-shadow: 15px 15px 20px 0 rgba(0, 0, 0, 0.438), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0.555) );
+
+}
+
+.grid{
+ padding-top:5px;
+ box-shadow: 15px 15px 20px 0 rgba(0, 0, 0, 0.438), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background: linear-gradient( rgb(255, 255, 255), rgba(255, 255, 255, 0.555) );
+ position: absolute;
+ top: 0px;
+ width:100%;
+
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-right: 30px;
+}
+
+.back{
+  margin-right:600px;
+  margin-top: 20px;
+  border-radius: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

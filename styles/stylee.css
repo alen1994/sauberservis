@@ -1,0 +1,36 @@
+.dodaj {
+    float: right;
+    margin-right: 10px;
+    margin-top: -60px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 200px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 700;
+
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.bg-modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    MARGIN-LEFT: -410px;
+}
